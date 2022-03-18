@@ -1,2 +1,1 @@
-# giant_killer
-General 
+Repository for my DSA notes
