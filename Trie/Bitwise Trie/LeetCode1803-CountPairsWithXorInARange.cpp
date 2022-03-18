@@ -4,7 +4,7 @@ public:
         vector<Trie*>children;
         int count;
     };
-    struct Trie* getTrieNode(){
+    Trie* getTrieNode(){
         Trie* node = new Trie();
         node->count=0;
         for(int i=0;i<2;i++){
