@@ -2,7 +2,7 @@ struct Trie {
     vector<Trie*>children;
     bool isEnd;
 };
-struct Trie* getTrieNode(){
+Trie* getTrieNode(){
     Trie* node=new Trie();
     for(int i=0;i<2;i++){
         node->children.push_back(NULL);
